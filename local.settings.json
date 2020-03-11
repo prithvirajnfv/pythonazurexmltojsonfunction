@@ -1,8 +1,0 @@
-{
-  "IsEncrypted": false,
-  "Values": {
-    "AzureWebJobsStorage": "",
-    "FUNCTIONS_WORKER_RUNTIME": "python",
-    "mybusneueda_SERVICEBUS": "Endpoint=sb://mybusneueda.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=aG4BV+vO19oCNc/2BErH9ZGgIMmxlySZfvVtpXohzK4="
-  }
-}
