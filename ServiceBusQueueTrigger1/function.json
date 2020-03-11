@@ -1,0 +1,20 @@
+{
+  "scriptFile": "__init__.py",
+  "entryPoint": "sd_xmltojson_function",
+  "bindings": [
+    {
+      "name": "msgIn",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "sdxmlqueue",
+      "connection": "mybusneueda_SERVICEBUS"
+    },
+    {
+      "name": "msgOut",
+      "type": "serviceBus",
+      "direction": "out",
+      "connection": "mybusneueda_SERVICEBUS",
+      "queueName": "sdqueue"
+    }
+  ]
+}
